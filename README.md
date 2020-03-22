@@ -4,6 +4,7 @@ ___
 * Unpack /content CPKs with [**CriPakTools**](https://github.com/esperknight/CriPakTools)' Decompress
 * Repack with [**Repacker CPK**](http://www.mediafire.com/file/osutzusowu5m6h8/Repacker_CPK.zip/file) (uncheck ForceCompress)
 * Mass swaps with **Replace-O-Matic** (missing link) 
+* Other tools mentioned when necessary
 ### [File extensions reference](https://forum.xentax.com/viewtopic.php?t=17956): camdo=model , camst=texture, etc.
 ___
 ### Doable:
