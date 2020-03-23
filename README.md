@@ -3,7 +3,6 @@ ___
 ### Tools used:
 * Unpack /content CPKs with [**CriPakTools**](https://github.com/esperknight/CriPakTools)' Decompress
 * Repack with [**Repacker CPK**](http://www.mediafire.com/file/osutzusowu5m6h8/Repacker_CPK.zip/file) (uncheck ForceCompress)
-* Mass swaps with **Replace-O-Matic** (missing link) 
 * Other tools mentioned when necessary
 ### [File extensions reference](https://forum.xentax.com/viewtopic.php?t=17956): camdo=model , camst=texture, etc.
 ___
@@ -16,7 +15,7 @@ ___
 ___
 ## .../action.cpk
 *  movement/battle animation scripts (seen on hexedit)]
-	* .mca
+	* MCA
 ```	
 	/dl: DOLLS(SKELLS)
 	/en: ENEMIES
@@ -36,7 +35,7 @@ ___
 ___
 ## .../bdat.cpk
 * binary data
-	*BDAT
+	* BDAT
 	```
 	common_local_us.bdat
 	/us/qev: quest scenes
@@ -49,15 +48,15 @@ ___
 	* CAMDO,CAMTP,CASMT,CEA,CES,EFP,HKT
 	
 	```
-	dl019100.camdo:	'beta' ares
+	dl019100.camdo: 'beta' Ares
 	```
 	
 ### Modding notes:
 * No way to reimport edited textures
-* Swapping 'beta' ares crashes
+* Swapping 'beta' Ares crashes
 * Swapping others is jank (animations break model)
 	* Swap animations on hkc.cpk
-* *.hkt* references the original rig name in the file,
+* *.hkt* references the original rig name in the file
 	* Change to swapped name in hexedit just in case
 ___
 ## .../chr_en.cpk
@@ -97,7 +96,7 @@ ___
 
 
 	```
-	fc281010/1 elma/true form
+	fc281010/1	elma/true form
 	```
 		
 ### Modding notes:
@@ -265,9 +264,9 @@ ___
 	* 04:shoulder
 	* 06:both shoulders / temporary?
 		
-* Super weapons:
-	* wd200201r to wd201401r
-	
+```
+wd200201r to wd201401r:  Super weapons
+```
 ___
 ## .../chr_wdb.cpk
 * Doll(skell) temporary objects? e.g. missiles
@@ -339,19 +338,20 @@ ___
 	* CAEH,EFB,EVA,HKT
 ___
 ## .../gimmick.cpk
-	world_info.bin (on hexedit: calls '.gimk's)
-	various numbered folders with:
-		GIMK
-		'popdata' for effect,enemy,item,se,tbox,npc,mapobj,event,arealock,door,bladeguide...
-		'locationdata'
+* various numbered folders with:
+	* GIMK
+	* 'popdata' for effect,enemy,item,se,tbox,npc,mapobj,event,arealock,door,bladeguide...
+	* 'locationdata'
+	
+world_info.bin (on hexedit: calls '.gimk's)
 ___
 ## .../hkc.cpk
-	Controls battle animations
-	folders: dl,en,mb,np,oj,pc,pt,wd,we,ws
+* Controls battle animations
+* folders: dl,en,mb,np,oj,pc,pt,wd,we,ws
 	
-	SAR -> UNPACK:quickbms -> HKT
-	e.g:
-	/dl/dl019600.sar->000000_idle_anm.hkt(run, jump, arts animations)
+* SAR -> UNPACK:quickbms -> HKT
+e.g:
+/dl/dl019600.sar->000000_idle_anm.hkt(run, jump, arts animations)
 ___
 ## .../map.cpk
 * Mira files
@@ -533,5 +533,6 @@ ___
 
 ![alt text](https://tcrf.net/images/b/be/XCX-CommDevTex.png)
 ___
-PS.: Some WiiU Gecko hacks exist but this is a Cemu project ¯\_(ツ)_/¯ 
+PS.:Mass swaps with *Replace-O-Matic* (missing link) 
+PS.:Some WiiU Gecko hacks exist but this is a Cemu project ¯\_(ツ)_/¯ 
 
