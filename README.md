@@ -122,7 +122,7 @@ ___
 	* CATEX 
 * IDs correspond to model IDs
 * fc1___= male, fc2___= female
-	*__a__= natural feature, __b__= face paint
+* __a__= natural feature, __b__= face paint
 ### Modding notes:
 * UNPACK:
 	* Use xenoTextureConvert (Xenotoolset)
@@ -279,14 +279,43 @@ ___
 ## .../chr_ws.cpk
 * Playable characters' weapons
 	* CADYS,CAMDO,CAMTP,CASMT,CAWDY,EFP,HKT
-* ws1N__=guns, ws2N__= blades
+* ws1__=guns, ws2__= blades
 * 'l' (left) and 'r' (right) side indicators
-* N seems to indicate class according to *weapon_limit.cawdy*
+* Structure : wsXXYNNN
+
+*XX seems to indicate class according to weapon_limit.cawdy
+	```
+	 #ws11 ==> Assault Rifle
+	 #ws12 ==> Sniper Rifle
+	 #ws13 ==> Dual guns 
+	 #ws14 ==> Gatling gun
+	 #ws15 ==> Raygun
+	 #ws16 ==> Psycho launcher
+	 #ws17 ==> unused??? (only few weapon models from Grenada Glactic Group)
+	 #ws21 ==> Longsword
+	 #ws22 ==> Javelin
+	 #ws23 ==> Dual Swords
+	 #ws24 ==> Shield
+	 #ws25 ==> Knife
+	 #ws26 ==> Photon Saber
+	```
+* Y seems to indicate the manufacturer 
+	```
+	 1 ==> Sakuraba industries
+	 2 ==> Grenada Galactic Group
+	 3 ==> Meredith & Co
+	 4 ==> Candid & Credible
+	 5 ==> Six Stars
+	 6 ==> Orphean Technologies
+	 7 ==> Nopon Commerce Guild
+	 8 ==> Factory 1.21
+	```
+* NNN indicates the model ID (there usually are 7 variant of the same model)
 	```
 	e.g:
-	ws132101= elma's gun
-	ws215104= katana
-	ws121101= lao's sniper
+	ws132101= elma's gun ==> Dual Guns / Grenada Galactic Group / Model 1 / Variant 1
+	ws215104= katana ==> Longsword / Six Stars / Model 1 / Variant 4
+	ws121101= lao's sniper ==> Sniper Rifle / Sakuraba Industries / Model 1 / Variant 1
 	```
 ___
 ## .../eff.cpk
