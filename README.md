@@ -283,7 +283,7 @@ ___
 * 'l' (left) and 'r' (right) side indicators
 * Structure : wsXXYNNN
 
-*XX seems to indicate class according to weapon_limit.cawdy
+* XX seems to indicate class according to weapon_limit.cawdy
 	```
 	 #ws11 ==> Assault Rifle
 	 #ws12 ==> Sniper Rifle
