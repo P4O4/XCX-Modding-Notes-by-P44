@@ -211,10 +211,10 @@ ___
 	* CHR,CADYS,CAMDO,CAMTP,CASMT,CEA,CES(sounds),CRV(jump),EFP,HKT
 * separated by body area (armour)
 	```
-	pc060201= L's default body
-	pc070201= Celica's default body (one of the 2 to have .cadys and .efp too)
-	pc299112= female blade suit
-	pc271112 to pc271912= full female sets
+	pc060201		L's default body
+	pc070201	 	Celica's default body (one of the 2 to have .cadys and .efp too)
+	pc299112	 	female blade suit
+	pc271112 to pc271912	full female sets
 	```
 * pc1__= male	pc2__= female
 * pcXXNNN_:
