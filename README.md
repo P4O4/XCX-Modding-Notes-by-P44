@@ -109,6 +109,7 @@ ___
 	* ???
 * camdo/camst swaps (renaming) are possible
 * The game runs even with the folder missing
+* Skin color (i.e elma's true form or vandham) seems to be hardcoded into the game
 ___
 
 ## .../chr_fceye.cpk
