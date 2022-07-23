@@ -68,11 +68,11 @@ ___
 * some ganglions as en02___
 
 	```
-	en010301= Vita
-	en010601: Vasara
-	en010701: Zu Pharg [named Aegis]
-	en010801: Almandal
-	en061101: Chimera Lao
+	en010301	 Vita
+	en010601	 Vasara
+	en010701	 Zu Pharg [named Aegis]
+	en010801	 Almandal
+	en061101	 Chimera Lao
 	```
 ___
 ## .../chr_fc.cpk
@@ -97,9 +97,9 @@ ___
 
 
 	```
-	fc281010 	Elma
-	fc281011	True Form Elma
-	fc281020 	Lin
+	fc281010 	Elma's face
+	fc281011	True Form Elma's face
+	fc281020 	Lin's face
 	```
 		
 ### Modding notes:
