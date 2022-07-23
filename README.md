@@ -97,7 +97,8 @@ ___
 
 
 	```
-	fc281010/1 	True Form Elma
+	fc281010 	Elma
+	fc281011	True Form Elma
 	fc281020 	Lin
 	```
 		
@@ -135,35 +136,35 @@ ___
 * NPC files (NLA only?)
 	* CAMDO,CAMTP,CASMT,CEA,EFP,HKT
 	```
-	mb0110__= male blades
-	mb0111__= male civillian
-	mb0120__= female blades
-	mb0121__= female civillian
+	mb0110__	 male blades
+	mb0111__	 male civillian
+	mb0120__	 female blades
+	mb0121__	 female civillian
 	
-	mb02__ = manon
+	mb02__  manon
 	... (other races)
-	mb08__ = nopon
+	mb08__ 	nopon
 	```
 ___
 ## .../chr_np.cpk
 * NPC files
 	* CHR,CADYS,CAMDO,CAMTP,CASMT,CEA,CES,EFP,HKT
 	```
-	np002001= Nagi's body
-	np002101= Vandham
-	np002201= Maurice
-	np002501= Celica's body
-	np003101= Gwin
-	np005001= Rock
-	np006101= Luxaar
-	np006201= Ga jiarg
-	np006301= Ga buidhe
-	np006401= Goethia
-	np006501= Dagahn 
-	np006601= Ryyz
-	np007001= Black Knight (ending beach scene character)
-	np009001= Tatsu
-	np009101= Tatsu (no hood)
+	np002001	 Nagi's body
+	np002101	 Vandham
+	np002201	 Maurice
+	np002501	 Celica's body
+	np003101	 Gwin
+	np005001	 Rock
+	np006101	 Luxaar
+	np006201	 Ga jiarg
+	np006301	 Ga buidhe
+	np006401	 Goethia
+	np006501	 Dagahn 
+	np006601	 Ryyz
+	np007001	 Black Knight (ending beach scene character)
+	np009001	 Tatsu
+	np009101	 Tatsu (no hood)
 	
 	np01__: males
 	np02__: females
@@ -179,22 +180,22 @@ ___
 * Object files
 	* CADYS,CAMDO,CAMTP,CASMT,CEA,CES,EFP,HKT
 	```
-	oj010001=	Comm device [READABLE LORE IN TEXTURE (see appendix below)]
-	oj020013=	Manon ship
-	oj050007=	Shoulder from that chap5 scene
-	oj090004=	Lao from end beach scene
-	oj250020=	Tatsu (Low Quality)
-	oj310011=	White Whale
-	oj490033=	Full Lin (Low Quality)
-	oj490034=	Full Elma (Low Quality)
-	oj490035=	Full Cross (Low Quality)
-	oj820102=	Wrecked car
-	oj820202=	Container
-	oj840045/6=	Car
-	oj840139=	Rock
-	oj840244=	Nopon Monado
+	oj010001	Comm device [READABLE LORE IN TEXTURE (see appendix below)]
+	oj020013	Manon ship
+	oj050007	Shoulder from that chap5 scene
+	oj090004	Lao from end beach scene
+	oj250020	Tatsu (Low Quality)
+	oj310011	White Whale
+	oj490033	Full Lin (Low Quality)
+	oj490034	Full Elma (Low Quality)
+	oj490035	Full Cross (Low Quality)
+	oj820102	Wrecked car
+	oj820202	Container
+	oj840045/6	Car
+	oj840139	Rock
+	oj840244	Nopon Monado
 	
-	oj87____=	Holograms
+	oj87____	Holograms
 		e.g:oj870031=	Wrothian holding cat
 	```
 ___
@@ -219,18 +220,18 @@ ___
 	* XX= armour set
 	* NNN= armour subset
 	```
-	pc____1=head
-	pc____2=torsos
-	pc____3=left arms
-	pc____4=right arms
-	pc____5=legs
+	pc____1	 head
+	pc____2	 torsos
+	pc____3	 left arms
+	pc____4	 right arms
+	pc____5	 legs
 	e.g:
-	pc2131XX= Irina's gear
-	pc2132XX= Lin's gear
-	pc114XXX= Lao's gear
-	pc221XXX= Elma's gear
-        pc2241XX= True Form Elma gear
-	pc100XXX= shirtless male
+	pc2131XX	 Irina's gear
+	pc2132XX	 Lin's gear
+	pc114XXX	 Lao's gear
+	pc221XXX	 Elma's gear
+        pc2241XX	 True Form Elma gear
+	pc100XXX	 shirtless male
 	```
 ___
 ## .../chr_pt.cpk
@@ -248,11 +249,11 @@ ___
 * Headgear
 	* CAMDO,CASMT
 	```
-		un02_:  glasses (un020080102 is a mask)
-		un03_:	snouts
-		un04_:	ears
-		un07_:	eyepatches
-		un11_:	head flowers
+		un02_	  	glasses (un020080102 is a mask)
+		un03_		snouts
+		un04_		ears
+		un07_		eyepatches
+		un11_		head flowers
 	```
 ___
 ## .../chr_wd.cpk
@@ -290,37 +291,37 @@ ___
 
 * XX seems to indicate class according to weapon_limit.cawdy
 	```
-	 #ws11 ==> Assault Rifle
-	 #ws12 ==> Sniper Rifle
-	 #ws13 ==> Dual guns 
-	 #ws14 ==> Gatling gun
-	 #ws15 ==> Raygun
-	 #ws16 ==> Psycho launcher
-	 #ws17 ==> unused??? (only few weapon models from Grenada Galctic Group)
-	 #ws21 ==> Longsword
-	 #ws22 ==> Javelin
-	 #ws23 ==> Dual Swords
-	 #ws24 ==> Shield
-	 #ws25 ==> Knife
-	 #ws26 ==> Photon Saber
+	 #ws11 		Assault Rifle
+	 #ws12 		Sniper Rifle
+	 #ws13 		Dual guns 
+	 #ws14 		Gatling gun
+	 #ws15 		Raygun
+	 #ws16 		Psycho launcher
+	 #ws17 		unused??? (only few weapon models from Grenada Galctic Group)
+	 #ws21 		Longsword
+	 #ws22 		Javelin
+	 #ws23 		Dual Swords
+	 #ws24 		Shield
+	 #ws25 		Knife
+	 #ws26 		Photon Saber
 	```
 * Y seems to indicate the manufacturer 
 	```
-	 1 ==> Sakuraba Industries
-	 2 ==> Grenada Galactic Group
-	 3 ==> Meredith & Co
-	 4 ==> Candid & Credible
-	 5 ==> Six Stars
-	 6 ==> Orphean Technologies
-	 7 ==> Nopon Commerce Guild
-	 8 ==> Factory 1.21
+	 1 	 Sakuraba Industries
+	 2 	 Grenada Galactic Group
+	 3 	 Meredith & Co
+	 4 	 Candid & Credible
+	 5 	 Six Stars
+	 6 	 Orphean Technologies
+	 7 	 Nopon Commerce Guild
+	 8 	 Factory 1.21
 	```
 * NNN indicates the model ID (there usually are 7 variant of the same model)
 	```
 	e.g:
-	ws132101= elma's gun ==> Dual Guns / Grenada Galactic Group / Model 1 / Variant 1
-	ws215104= katana ==> Longsword / Six Stars / Model 1 / Variant 4
-	ws121101= lao's sniper ==> Sniper Rifle / Sakuraba Industries / Model 1 / Variant 1
+	ws132101	 elma's gun ==> Dual Guns / Grenada Galactic Group / Model 1 / Variant 1
+	ws215104	 katana ==> Longsword / Six Stars / Model 1 / Variant 4
+	ws121101	 lao's sniper ==> Sniper Rifle / Sakuraba Industries / Model 1 / Variant 1
 	```
 ___
 ## .../eff.cpk
@@ -484,10 +485,10 @@ ___
 	```
 ### Modding notes:
 * UNPACK:	
-	* use AcbEditor (or vgmtoolbox) on .acb (->.dsp)
+	* use AcbEditor (or vgmtoolbox\eternityaudiotools) on .acb (->.dsp)
 	* use vgaudio on .dsp (->.adx)
 * REPACK mods:
-	* use PesConverter on mp3 to adx
+	* use PesConverter\AtomENCD on mp3 to adx
 	* use vgaudio on .adx (->.dsp)
 	* use AcbEditor on .dsp and original .acb (vgmtoolbox can't)
 ___
@@ -498,19 +499,19 @@ ___
 	* xNN_MM: OST, NN=song, MM=variant
 		```
 		e.g.:
-		x12_00  = briefing
-		x42	=	tatsu
-		x43_00	=	melancholia
-		x45_00	=	black tar
-		x49_00	=	wir fliegen
-		x79_00	=	dont worry
-		x53_00	=	uncontrollable
-		x63/x64	=	NLA
-		x65/x66	=	primordia
-		x67/x68	=	noctilum
-		x69/x70	=	oblivia
-		x71/x72	=	sylvalum
-		x73/x74	=	cauldros
+		x12_00   	briefing
+		x42		tatsu
+		x43_00		melancholia
+		x45_00		black tar
+		x49_00		wir fliegen
+		x79_00		dont worry
+		x53_00		uncontrollable
+		x63/x64		NLA
+		x65/x66		primordia
+		x67/x68		noctilum
+		x69/x70		oblivia
+		x71/x72		sylvalum
+		x73/x74		cauldros
 		```
 		
 ### /ev_voice/sev/us:
@@ -534,32 +535,32 @@ ___
 			
 			2-10:  Male MC
 			
-			3: Studious (Goro Akechi-Robbie Daymond)
-			6: Heroic (Yosuke Hanamura-Yuri Lowenthal)
-			7: Rookie (Eren Yeager-Bryce Papenbrook)
-			8: Classic (Shulk-Adam Howden)
+			3	 Studious (Goro Akechi-Robbie Daymond)
+			6	 Heroic (Yosuke Hanamura-Yuri Lowenthal)
+			7	 Rookie (Eren Yeager-Bryce Papenbrook)
+			8	 Classic (Shulk-Adam Howden)
 			
 			21-29: Female MC (28:fiora)
 			
-			41:Nagi
-			42:L
-			43:Lao
-			44:H.B. 
-			45:Gwin
-			46:Frye
-			47:Doug
-			48:Yelv
-			49:Boze
-			50:Phog
-			51:Elma
-			52:Lin
-			53:Celica
-			54:Irina 
-			55:Murderess
-			56:Alexa
-			57:Hope
-			58:Mia
-			59:Tatsu (Japanese version only!)
+			41	Nagi
+			42	L
+			43	Lao
+			44	H.B. 
+			45	Gwin
+			46	Frye
+			47	Doug
+			48	Yelv
+			49	Boze
+			50	Phog
+			51	Elma
+			52	Lin
+			53	Celica
+			54	Irina 
+			55	Murderess
+			56	Alexa
+			57	Hope
+			58	Mia
+			59	Tatsu (Japanese version only!)
 ```
 ### Modding notes:
 * SWAP/REPLACE ADX
