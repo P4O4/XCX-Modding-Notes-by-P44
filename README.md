@@ -384,6 +384,7 @@ ___
 ## .../hkc.cpk
 * Controls battle animations
 * folders: dl,en,mb,np,oj,pc,pt,wd,we,ws
+* WIP Animation List https://docs.google.com/spreadsheets/d/1h3tAUeFiZDIPqDM3OPmhCQdprAJgugZcMiXqooFJ09Q/edit#gid=0
 	
 * SAR -> UNPACK:quickbms -> HKT
 e.g:
@@ -392,6 +393,23 @@ e.g:
 ### Modding notes:
 * Import: using HavokMax 3dsmax plugin (https://github.com/PredatorCZ/HavokMax)
 * When importing hkt and camdo files separately with xenomax and havokmax 3dsmax plugins, both anim\rig and model must be the same scale, preferrably 100
+
+### Moveset List:
+```
+	_a_ 	Assault Rifle
+	_b_ 	Sniper Rifle
+	_c_ 	Dual Guns
+	_d_ 	Gatling Gun
+	_e_ 	Raygun
+	_f_ 	Psycho Launchers
+	_g_ 	Longsword
+	_h_ 	Dual Swords
+	_i_ 	Photon Saber
+	_j_ 	Javelin
+	_k_ 	Shield
+	_l_ 	Knife
+	_m_ 	Multigun
+```
 ___
 ## .../map.cpk
 * Mira files
