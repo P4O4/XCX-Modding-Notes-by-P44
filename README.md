@@ -48,12 +48,12 @@ ___
 	* CAMDO,CAMTP,CASMT,CEA,CES,EFP,HKT
 	
 	```
-	dl019100.camdo: 'beta' Ares
+	dl019100.camdo: Original Prologue Ares
 	```
 	
 ### Modding notes:
 * No way to reimport edited textures
-* Swapping 'beta' Ares crashes
+* Swapping Ares 70\90 with Original Prologue Ares crashes
 * Swapping others is jank (animations break model)
 	* Swap animations on hkc.cpk
 * *.hkt* references the original rig name in the file
