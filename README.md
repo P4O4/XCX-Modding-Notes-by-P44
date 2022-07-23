@@ -62,16 +62,17 @@ ___
 ## .../chr_en.cpk
 * enemy models/effects
 	* CHR,CADYS,CAMDO,CAMTP,CASMT,CEA,CES,EFP,HKT
-*couldn't figure out naming rules*
+*couldn't figure out naming rules, but seems to have the same names as stream/voice/en*
 * bigger files are usually bosses
 * .cadys only exist for a few enemies?
 * some ganglions as en02___
 
 	```
-	en010601: vasara
-	en010701: Zu Pharg (named Aegis)
-	en010801: almandal
-	en061101: chimera Lao
+	en010301= Vita
+	en010601: Vasara
+	en010701: Zu Pharg [named Aegis]
+	en010801: Almandal
+	en061101: Chimera Lao
 	```
 ___
 ## .../chr_fc.cpk
@@ -96,7 +97,8 @@ ___
 
 
 	```
-	fc281010/1	elma/true form
+	fc281010/1	True Form Elma
+	fc281020 Lin
 	```
 		
 ### Modding notes:
@@ -159,7 +161,7 @@ ___
 	np006401= goethia
 	np006501= dagahn 
 	np006601= ryyz
-	np007001= ending beach scene character
+	np007001= Black Knight (ending beach scene character)
 	np009001= tatsu
 	np009101= (no hood) tatsu
 	
@@ -181,11 +183,11 @@ ___
 	oj020013=	Manon ship
 	oj050007=	Shoulder from that chap5 scene
 	oj090004=	Lao from end beach scene
-	oj250020=	Tatsu
+	oj250020=	Tatsu (Low Quality)
 	oj310011=	White Whale
-	oj490033=	Full Lin 
-	oj490034=	Full Elma
-	oj490035=	Full Cross (shulk)
+	oj490033=	Full Lin (Low Quality)
+	oj490034=	Full Elma (Low Quality)
+	oj490035=	Full Cross (Low Quality)
 	oj820102=	Wrecked car
 	oj820202=	Container
 	oj840045/6=	Car
@@ -223,8 +225,11 @@ ___
 	pc____4=right arms
 	pc____5=legs
 	e.g:
+	pc2131XX= Irina's gear
+	pc2132XX= Lin's gear
 	pc114XXX= Lao's gear
 	pc221XXX= Elma's gear
+        pc2241XX= True Form Elma gear
 	pc100XXX= shirtless male
 	```
 ___
@@ -291,7 +296,7 @@ ___
 	 #ws14 ==> Gatling gun
 	 #ws15 ==> Raygun
 	 #ws16 ==> Psycho launcher
-	 #ws17 ==> unused??? (only few weapon models from Grenada Glactic Group)
+	 #ws17 ==> unused??? (only few weapon models from Grenada Galctic Group)
 	 #ws21 ==> Longsword
 	 #ws22 ==> Javelin
 	 #ws23 ==> Dual Swords
@@ -301,7 +306,7 @@ ___
 	```
 * Y seems to indicate the manufacturer 
 	```
-	 1 ==> Sakuraba industries
+	 1 ==> Sakuraba Industries
 	 2 ==> Grenada Galactic Group
 	 3 ==> Meredith & Co
 	 4 ==> Candid & Credible
@@ -381,6 +386,10 @@ ___
 * SAR -> UNPACK:quickbms -> HKT
 e.g:
 /dl/dl019600.sar->000000_idle_anm.hkt(run, jump, arts animations)
+
+### Modding notes:
+* Import: HavokMax 3dsmax plugin
+* When importing hkt and camdo files separately with xenomax and havokmax 3dsmax plugins, both anim\rig and model must be the same scale, preferrably 100
 ___
 ## .../map.cpk
 * Mira files
@@ -512,10 +521,6 @@ ___
 	/voice
 		/en/us
 			ADX enemy voice line folders
-			en010301= luxaar
-			en010701= ryyz/dagahn
-			en061101= chimera lao
-			...
 			
 		/mb/us
 			ADX [NLA pass-by lines]
@@ -527,7 +532,13 @@ ___
 			ID folders for playable characters
 			ADX [arts,btl,dw,soul]
 			
-			2-10:  Male MC   (8:shulk)
+			2-10:  Male MC
+			
+			3: Studious (Goro Akechi-Robbie Daymond)
+			6: Heroic (Yosuke Hanamura-Yuri Lowenthal)
+			7: Rookie (Eren Yeager-Bryce Papenbrook)
+			8: Classic (Shulk-Adam Howden)
+			
 			21-29: Female MC (28:fiora)
 			
 			41:Nagi
@@ -548,7 +559,7 @@ ___
 			56:Alexa
 			57:Hope
 			58:Mia
-			59:Tatsu
+			59:Tatsu (Japanese version only!)
 ```
 ### Modding notes:
 * SWAP/REPLACE ADX
