@@ -97,8 +97,8 @@ ___
 
 
 	```
-	fc281010/1	True Form Elma
-	fc281020 Lin
+	fc281010/1 	True Form Elma
+	fc281020 	Lin
 	```
 		
 ### Modding notes:
@@ -149,21 +149,21 @@ ___
 * NPC files
 	* CHR,CADYS,CAMDO,CAMTP,CASMT,CEA,CES,EFP,HKT
 	```
-	np002001= nagi's body
-	np002101= vandham
-	np002201= maurice
-	np002501= celica's body
-	np003101= gwin
-	np005001= rock
-	np006101= luxaar
-	np006201= ga jiarg
-	np006301= ga buidhe
-	np006401= goethia
-	np006501= dagahn 
-	np006601= ryyz
+	np002001= Nagi's body
+	np002101= Vandham
+	np002201= Maurice
+	np002501= Celica's body
+	np003101= Gwin
+	np005001= Rock
+	np006101= Luxaar
+	np006201= Ga jiarg
+	np006301= Ga buidhe
+	np006401= Goethia
+	np006501= Dagahn 
+	np006601= Ryyz
 	np007001= Black Knight (ending beach scene character)
-	np009001= tatsu
-	np009101= (no hood) tatsu
+	np009001= Tatsu
+	np009101= Tatsu (no hood)
 	
 	np01__: males
 	np02__: females
@@ -388,7 +388,7 @@ e.g:
 /dl/dl019600.sar->000000_idle_anm.hkt(run, jump, arts animations)
 
 ### Modding notes:
-* Import: HavokMax 3dsmax plugin
+* Import: using HavokMax 3dsmax plugin (https://github.com/PredatorCZ/HavokMax)
 * When importing hkt and camdo files separately with xenomax and havokmax 3dsmax plugins, both anim\rig and model must be the same scale, preferrably 100
 ___
 ## .../map.cpk
