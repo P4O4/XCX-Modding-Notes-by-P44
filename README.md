@@ -231,7 +231,7 @@ ___
 	pc2132XX	 Lin's gear
 	pc114XXX	 Lao's gear
 	pc221XXX	 Elma's gear
-        pc2241XX	 True Form Elma gear
+	pc2241XX	 True Form Elma gear
 	pc100XXX	 shirtless male
 	```
 ___
