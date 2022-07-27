@@ -72,6 +72,12 @@ ___
 	en010601	 Vasara
 	en010701	 Zu Pharg [named Aegis]
 	en010801	 Almandal
+	en020301	 Marnuck
+	en020401	 Milsaadi (Male)
+	en020501	 Milsaadi (Female)
+	en020901	 Prone (Male)
+	en020901	 Prone (Female)
+	en021101	 Definian
 	en061101	 Chimera Lao
 	```
 ___
@@ -160,7 +166,7 @@ ___
 	np006101	 Luxaar
 	np006201	 Ga jiarg
 	np006301	 Ga buidhe
-	np006401	 Goethia
+	np006401	 Goetia
 	np006501	 Dagahn 
 	np006601	 Ryyz
 	np007001	 Black Knight (ending beach scene character)
