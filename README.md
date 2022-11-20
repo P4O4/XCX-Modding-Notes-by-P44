@@ -1,3 +1,4 @@
+Youtube video: https://youtu.be/88Edgxo5ysE
 # PR0FILE_4O4 XCX MODDING NOTES [[TCRF version here](https://tcrf.net/Notes:Xenoblade_Chronicles_X)]
 ___
 ### Tools used:
