@@ -49,12 +49,12 @@ ___
 	* CAMDO,CAMTP,CASMT,CEA,CES,EFP,HKT
 	
 	```
-	dl019100.camdo: 'beta' Ares
+	dl019100.camdo: Original Prologue Ares
 	```
 	
 ### Modding notes:
 * No way to reimport edited textures
-* Swapping 'beta' Ares crashes
+* Swapping Ares 70\90 with Original Prologue Ares crashes
 * Swapping others is jank (animations break model)
 	* Swap animations on hkc.cpk
 * *.hkt* references the original rig name in the file
@@ -63,16 +63,23 @@ ___
 ## .../chr_en.cpk
 * enemy models/effects
 	* CHR,CADYS,CAMDO,CAMTP,CASMT,CEA,CES,EFP,HKT
-*couldn't figure out naming rules*
+*couldn't figure out naming rules, but seems to have the same names as stream/voice/en*
 * bigger files are usually bosses
 * .cadys only exist for a few enemies?
 * some ganglions as en02___
 
 	```
-	en010601: vasara
-	en010701: Zu Pharg (named Aegis)
-	en010801: almandal
-	en061101: chimera Lao
+	en010301	 Vita
+	en010601	 Vasara
+	en010701	 Zu Pharg [named Aegis]
+	en010801	 Almandal
+	en020301	 Marnuck
+	en020401	 Milsaadi (Male)
+	en020501	 Milsaadi (Female)
+	en020901	 Prone (Male)
+	en020901	 Prone (Female)
+	en021101	 Definian
+	en061101	 Chimera Lao
 	```
 ___
 ## .../chr_fc.cpk
@@ -97,7 +104,9 @@ ___
 
 
 	```
-	fc281010/1	elma/true form
+	fc281010 	Elma's face
+	fc281011	True Form Elma's face
+	fc281020 	Lin's face
 	```
 		
 ### Modding notes:
@@ -107,6 +116,7 @@ ___
 	* ???
 * camdo/camst swaps (renaming) are possible
 * The game runs even with the folder missing
+* Skin color (i.e elma's true form or vandham) seems to be hardcoded into the game
 ___
 
 ## .../chr_fceye.cpk
@@ -134,35 +144,35 @@ ___
 * NPC files (NLA only?)
 	* CAMDO,CAMTP,CASMT,CEA,EFP,HKT
 	```
-	mb0110__= male blades
-	mb0111__= male civillian
-	mb0120__= female blades
-	mb0121__= female civillian
+	mb0110__	 male blades
+	mb0111__	 male civillian
+	mb0120__	 female blades
+	mb0121__	 female civillian
 	
-	mb02__ = manon
+	mb02__  manon
 	... (other races)
-	mb08__ = nopon
+	mb08__ 	nopon
 	```
 ___
 ## .../chr_np.cpk
 * NPC files
 	* CHR,CADYS,CAMDO,CAMTP,CASMT,CEA,CES,EFP,HKT
 	```
-	np002001= nagi's body
-	np002101= vandham
-	np002201= maurice
-	np002501= celica's body
-	np003101= gwin
-	np005001= rock
-	np006101= luxaar
-	np006201= ga jiarg
-	np006301= ga buidhe
-	np006401= goethia
-	np006501= dagahn 
-	np006601= ryyz
-	np007001= ending beach scene character
-	np009001= tatsu
-	np009101= (no hood) tatsu
+	np002001	 Nagi's body
+	np002101	 Vandham
+	np002201	 Maurice
+	np002501	 Celica's body
+	np003101	 Gwin
+	np005001	 Rock
+	np006101	 Luxaar
+	np006201	 Ga jiarg
+	np006301	 Ga buidhe
+	np006401	 Goetia
+	np006501	 Dagahn 
+	np006601	 Ryyz
+	np007001	 Black Knight (ending beach scene character)
+	np009001	 Tatsu
+	np009101	 Tatsu (no hood)
 	
 	np01__: males
 	np02__: females
@@ -178,22 +188,22 @@ ___
 * Object files
 	* CADYS,CAMDO,CAMTP,CASMT,CEA,CES,EFP,HKT
 	```
-	oj010001=	Comm device [READABLE LORE IN TEXTURE (see appendix below)]
-	oj020013=	Manon ship
-	oj050007=	Shoulder from that chap5 scene
-	oj090004=	Lao from end beach scene
-	oj250020=	Tatsu
-	oj310011=	White Whale
-	oj490033=	Full Lin 
-	oj490034=	Full Elma
-	oj490035=	Full Cross (shulk)
-	oj820102=	Wrecked car
-	oj820202=	Container
-	oj840045/6=	Car
-	oj840139=	Rock
-	oj840244=	Nopon Monado
+	oj010001	Comm device [READABLE LORE IN TEXTURE (see appendix below)]
+	oj020013	Manon ship
+	oj050007	Shoulder from that chap5 scene
+	oj090004	Lao from end beach scene
+	oj250020	Tatsu (Low Quality)
+	oj310011	White Whale
+	oj490033	Full Lin (Low Quality)
+	oj490034	Full Elma (Low Quality)
+	oj490035	Full Cross (Low Quality)
+	oj820102	Wrecked car
+	oj820202	Container
+	oj840045/6	Car
+	oj840139	Rock
+	oj840244	Nopon Monado
 	
-	oj87____=	Holograms
+	oj87____	Holograms
 		e.g:oj870031=	Wrothian holding cat
 	```
 ___
@@ -208,25 +218,28 @@ ___
 	* CHR,CADYS,CAMDO,CAMTP,CASMT,CEA,CES(sounds),CRV(jump),EFP,HKT
 * separated by body area (armour)
 	```
-	pc060201= L's default body
-	pc070201= Celica's default body (one of the 2 to have .cadys and .efp too)
-	pc299112= female blade suit
-	pc271112 to pc271912= full female sets
+	pc060201		L's default body
+	pc070201	 	Celica's default body (one of the 2 to have .cadys and .efp too)
+	pc299112	 	female blade suit
+	pc271112 to pc271912	full female sets
 	```
 * pc1__= male	pc2__= female
 * pcXXNNN_:
 	* XX= armour set
 	* NNN= armour subset
 	```
-	pc____1=head
-	pc____2=torsos
-	pc____3=left arms
-	pc____4=right arms
-	pc____5=legs
+	pc____1	 head
+	pc____2	 torsos
+	pc____3	 left arms
+	pc____4	 right arms
+	pc____5	 legs
 	e.g:
-	pc114XXX= Lao's gear
-	pc221XXX= Elma's gear
-	pc100XXX= shirtless male
+	pc2131XX	 Irina's gear
+	pc2132XX	 Lin's gear
+	pc114XXX	 Lao's gear
+	pc221XXX	 Elma's gear
+	pc2241XX	 True Form Elma gear
+	pc100XXX	 shirtless male
 	```
 ___
 ## .../chr_pt.cpk
@@ -244,11 +257,11 @@ ___
 * Headgear
 	* CAMDO,CASMT
 	```
-		un02_:  glasses (un020080102 is a mask)
-		un03_:	snouts
-		un04_:	ears
-		un07_:	eyepatches
-		un11_:	head flowers
+		un02_	  	glasses (un020080102 is a mask)
+		un03_		snouts
+		un04_		ears
+		un07_		eyepatches
+		un11_		head flowers
 	```
 ___
 ## .../chr_wd.cpk
@@ -286,37 +299,37 @@ ___
 
 * XX seems to indicate class according to weapon_limit.cawdy
 	```
-	 #ws11 ==> Assault Rifle
-	 #ws12 ==> Sniper Rifle
-	 #ws13 ==> Dual guns 
-	 #ws14 ==> Gatling gun
-	 #ws15 ==> Raygun
-	 #ws16 ==> Psycho launcher
-	 #ws17 ==> unused??? (only few weapon models from Grenada Glactic Group)
-	 #ws21 ==> Longsword
-	 #ws22 ==> Javelin
-	 #ws23 ==> Dual Swords
-	 #ws24 ==> Shield
-	 #ws25 ==> Knife
-	 #ws26 ==> Photon Saber
+	 #ws11 		Assault Rifle
+	 #ws12 		Sniper Rifle
+	 #ws13 		Dual guns 
+	 #ws14 		Gatling gun
+	 #ws15 		Raygun
+	 #ws16 		Psycho launcher
+	 #ws17 		unused??? (only few weapon models from Grenada Galctic Group)
+	 #ws21 		Longsword
+	 #ws22 		Javelin
+	 #ws23 		Dual Swords
+	 #ws24 		Shield
+	 #ws25 		Knife
+	 #ws26 		Photon Saber
 	```
 * Y seems to indicate the manufacturer 
 	```
-	 1 ==> Sakuraba industries
-	 2 ==> Grenada Galactic Group
-	 3 ==> Meredith & Co
-	 4 ==> Candid & Credible
-	 5 ==> Six Stars
-	 6 ==> Orphean Technologies
-	 7 ==> Nopon Commerce Guild
-	 8 ==> Factory 1.21
+	 1 	 Sakuraba Industries
+	 2 	 Grenada Galactic Group
+	 3 	 Meredith & Co
+	 4 	 Candid & Credible
+	 5 	 Six Stars
+	 6 	 Orphean Technologies
+	 7 	 Nopon Commerce Guild
+	 8 	 Factory 1.21
 	```
 * NNN indicates the model ID (there usually are 7 variant of the same model)
 	```
 	e.g:
-	ws132101= elma's gun ==> Dual Guns / Grenada Galactic Group / Model 1 / Variant 1
-	ws215104= katana ==> Longsword / Six Stars / Model 1 / Variant 4
-	ws121101= lao's sniper ==> Sniper Rifle / Sakuraba Industries / Model 1 / Variant 1
+	ws132101	 elma's gun ==> Dual Guns / Grenada Galactic Group / Model 1 / Variant 1
+	ws215104	 katana ==> Longsword / Six Stars / Model 1 / Variant 4
+	ws121101	 lao's sniper ==> Sniper Rifle / Sakuraba Industries / Model 1 / Variant 1
 	```
 ___
 ## .../eff.cpk
@@ -378,10 +391,32 @@ ___
 ## .../hkc.cpk
 * Controls battle animations
 * folders: dl,en,mb,np,oj,pc,pt,wd,we,ws
+* WIP Animation List https://docs.google.com/spreadsheets/d/1h3tAUeFiZDIPqDM3OPmhCQdprAJgugZcMiXqooFJ09Q/edit#gid=0
 	
 * SAR -> UNPACK:quickbms -> HKT
 e.g:
 /dl/dl019600.sar->000000_idle_anm.hkt(run, jump, arts animations)
+
+### Modding notes:
+* Import: using HavokMax 3dsmax plugin (https://github.com/PredatorCZ/HavokMax)
+* When importing hkt and camdo files separately with xenomax and havokmax 3dsmax plugins, both anim\rig and model must be the same scale, preferrably 100
+
+### Moveset List:
+```
+	_a_ 	Assault Rifle
+	_b_ 	Sniper Rifle
+	_c_ 	Dual Guns
+	_d_ 	Gatling Gun
+	_e_ 	Raygun
+	_f_ 	Psycho Launchers
+	_g_ 	Longsword
+	_h_ 	Dual Swords
+	_i_ 	Photon Saber
+	_j_ 	Javelin
+	_k_ 	Shield
+	_l_ 	Knife
+	_m_ 	Multigun
+```
 ___
 ## .../map.cpk
 * Mira files
@@ -476,10 +511,10 @@ ___
 	```
 ### Modding notes:
 * UNPACK:	
-	* use AcbEditor (or vgmtoolbox) on .acb (->.dsp)
+	* use AcbEditor (or vgmtoolbox\eternityaudiotools) on .acb (->.dsp)
 	* use vgaudio on .dsp (->.adx)
 * REPACK mods:
-	* use PesConverter on mp3 to adx
+	* use PesConverter\AtomENCD on mp3 to adx
 	* use vgaudio on .adx (->.dsp)
 	* use AcbEditor on .dsp and original .acb (vgmtoolbox can't)
 ___
@@ -490,19 +525,19 @@ ___
 	* xNN_MM: OST, NN=song, MM=variant
 		```
 		e.g.:
-		x12_00  = briefing
-		x42	=	tatsu
-		x43_00	=	melancholia
-		x45_00	=	black tar
-		x49_00	=	wir fliegen
-		x79_00	=	dont worry
-		x53_00	=	uncontrollable
-		x63/x64	=	NLA
-		x65/x66	=	primordia
-		x67/x68	=	noctilum
-		x69/x70	=	oblivia
-		x71/x72	=	sylvalum
-		x73/x74	=	cauldros
+		x12_00   	briefing
+		x42		tatsu
+		x43_00		melancholia
+		x45_00		black tar
+		x49_00		wir fliegen
+		x79_00		dont worry
+		x53_00		uncontrollable
+		x63/x64		NLA
+		x65/x66		primordia
+		x67/x68		noctilum
+		x69/x70		oblivia
+		x71/x72		sylvalum
+		x73/x74		cauldros
 		```
 		
 ### /ev_voice/sev/us:
@@ -513,10 +548,6 @@ ___
 	/voice
 		/en/us
 			ADX enemy voice line folders
-			en010301= luxaar
-			en010701= ryyz/dagahn
-			en061101= chimera lao
-			...
 			
 		/mb/us
 			ADX [NLA pass-by lines]
@@ -528,28 +559,34 @@ ___
 			ID folders for playable characters
 			ADX [arts,btl,dw,soul]
 			
-			2-10:  Male MC   (8:shulk)
+			2-10:  Male MC
+			
+			3	 Studious (Goro Akechi-Robbie Daymond)
+			6	 Heroic (Yosuke Hanamura-Yuri Lowenthal)
+			7	 Rookie (Eren Yeager-Bryce Papenbrook)
+			8	 Classic (Shulk-Adam Howden)
+			
 			21-29: Female MC (28:fiora)
 			
-			41:Nagi
-			42:L
-			43:Lao
-			44:H.B. 
-			45:Gwin
-			46:Frye
-			47:Doug
-			48:Yelv
-			49:Boze
-			50:Phog
-			51:Elma
-			52:Lin
-			53:Celica
-			54:Irina 
-			55:Murderess
-			56:Alexa
-			57:Hope
-			58:Mia
-			59:Tatsu
+			41	Nagi
+			42	L
+			43	Lao
+			44	H.B. 
+			45	Gwin
+			46	Frye
+			47	Doug
+			48	Yelv
+			49	Boze
+			50	Phog
+			51	Elma
+			52	Lin
+			53	Celica
+			54	Irina 
+			55	Murderess
+			56	Alexa
+			57	Hope
+			58	Mia
+			59	Tatsu (Japanese version only!)
 ```
 ### Modding notes:
 * SWAP/REPLACE ADX
